@@ -1,0 +1,112 @@
+
+.portfolio {
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    max-width: 100%;
+    }
+
+.swiper-wrapper {
+    width: 30000%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+.swiper-slide {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    }
+
+
+.img-box img {
+    width: 100%;
+    height: 450px;
+    }
+
+.description {
+    position: absolute;
+    left: 0;
+    bottom: -60%;
+    height: 60%;
+    width: 100%;
+    background-color: #04a3ce;
+    transition: .5s;
+    display: flex;
+    text-align: center;
+}
+
+.description-heading {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    font-size: 20px;
+    position: absolute;
+    top: 16%;
+    color: white;
+}
+
+.description-text {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    font-size: 15px;
+    position: absolute;
+    top: 35%;
+    color: white;
+}
+
+.swiper-slide .social-list {
+    position: absolute;
+    top: 80%;
+    left: 24%;
+    padding: 0;
+    display: flex;
+} 
+
+.icons-list {
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.social-list .fab {
+    color: white;
+}
+
+.swiper-slide:hover .description {
+    bottom: 0%;
+}
+
+@media (max-width: 990px) {
+    .img-box img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .description-heading {
+        font-size: 14px;
+        position: absolute;
+        top: 10%;
+    }
+
+    .description-text {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 12px;
+        position: absolute;
+        top: 30%;
+    }
+
+    .icons-list {
+        display: inline-block;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }

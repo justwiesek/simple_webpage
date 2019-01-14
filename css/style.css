@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+/* font-family: 'Crimson Text', serif;*/
+
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.narrow {
+    padding-left: 10%; 
+    padding-right: 10%;
+}
+.heading, .navbar, .caption, .feature-heading, .contact-about, .email, .message-label {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 10rem;
+    margin-top: -1rem;
+}
+
+
+/* Navigation */
+
+.navbar {
+    font-weight: bold;
+    font-size: 0.8rem;
+    background: white;
+    padding-left: 10%; 
+    padding-right: 10%;
+}
+
+.navbar-img {
+    height: 3.8rem;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 0.7rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: dimgrey;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00E1FF;
+}
+
+
+/* Landing page */
+
+.home-inner {
+    background-color: black;
+    background: 
+linear-gradient(#121514, transparent),
+ url(../img/fabrizio-conti-771599-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.caption {
+    font-weight: bold;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    color: white;
+}
+
+.caption-main {
+    font-size: 0.9rem;
+    padding-top: 1.2rem;
+}
+.caption-heading {
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-top: 1.2rem;
+    padding-bottom: 3rem;
+}
+
+.caption a:first-of-type {
+    margin-right: 20px;
+}
+.btn {
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+}
+.btn-lg {
+    padding: 0.7rem 1.5rem; 
+}
+.btn:hover {
+    color: #fff;
+    background-color: #00E1FF;
+}
+.arrow {
+    position: relative;
+    top: 12rem;
+}
+
+.arrow-img {
+    height: 1.5rem;
+}
+
+/* History section */
+
+.history-heading {
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.history-img {
+    padding-bottom: 3rem;
+}
+
+.history .story {
+    font-family: 'Crimson Text', serif;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 10rem;
+}
+
+
+
+/* Services section */
+
+.feature .feature-heading {
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.heading-underline {
+    background-color: #00E1FF; 
+    width: 4rem;
+    height: 0.2rem;
+    margin: 2rem auto 2rem; 
+}
+.feature-text {
+    font-family: 'Crimson Text', serif;
+    padding-top: 2rem;
+    font-size: 15px;
+}
+
+.box {
+    background-color: white;
+    padding: 2rem 2rem;
+}
+
+
+
+/* Clients section */
+
+.clients .main-clients {
+    padding: 2% 20% 2% 20%;
+}
+.clients-heading {
+    padding-bottom: 2rem;
+}
+.clients-text {
+    font-family: 'Crimson Text', serif;
+    padding-bottom:  5rem;
+    padding-top:  2rem;
+}
+.clients-logos .logos {
+    padding-bottom: 3rem;
+    list-style: none;    
+}
+.clients-logos .main-logos {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.main-logos .styling {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+/* Contact section */
+
+.contact {
+    background-color: #101012;   
+    padding: 55px 0 58px;
+    color: white;
+}
+
+.contact-subsection {
+    padding: 90px 90px 30px;
+    height: 100%;
+    border: 1px solid #707070;
+}
+
+.contact-about, .email-contact {
+    color: white;
+}
+
+.contact-text {
+    color: white;
+    font-family: 'Crimson Text', serif;
+    padding-top: 1rem;
+}
+
+/* second column */
+
+.email .form {
+    padding: 95px 70px 6px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+}
+
+.email-label {
+    margin-top: 28px;
+}
+
+.email .form input {
+    padding: 0 5px;
+    height: 33px;
+    background: linear-gradient(transparent 49px, #707070 1px);
+}
+
+.form-control {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #707070;
+    border-radius: 0;
+    width: 100%;
+}
+
+.message-label {
+    margin-top: 60px;
+}
+
+.email .form textarea {
+    padding: 0 5px;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 15px;
+    vertical-align: bottom;
+    background: linear-gradient(transparent 49px, #707070 1px);
+    border-bottom: 1px solid #707070;
+}
+
+.button {
+    font-weight: 900;
+    white-space: nowrap;
+    color: #00c7fc;
+    background: transparent;
+    text-transform: uppercase;
+    border: 0;
+    border-color: transparent;
+    padding: 10px 10px;
+    margin: 0;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: white;
+}
+
+
+
+/* Footer section */
+
+.main-footer {
+    background-color: #00E1FF;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-icons .styling {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.list-items {
+    list-style: none;
+}
+
+.rights {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.styling .fab, .fas {
+    font-size: 1rem;
+    color: white;
+    padding-left: 3rem;
+}
+.fab:hover, .fas:hover {
+    color: black;
+}
+
+
+/* Media Queries */
+
+    @media (max-width: 767px) {
+        .footer .styling {
+            display: flex;
+            justify-content: center;
+        }
+
+        .rights .styling {
+            padding-left: 6rem;
+        }
+
+        .styling .list-items {
+            padding-left: 0.3rem;
+            padding-right: 0.3rem;
+        }
+    }
+
+
+@media (max-width: 990px) {
+    .offset:before {
+        display: block;
+        content: "";
+        height: 6rem;
+        margin-top: 0rem;
+    }
+
+    .arrow-img {
+        display: none;
+    }
+
+    .narrow {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .history-heading {
+        font-size: 28px;
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+
+    .story {
+        font-size: 14px;
+        padding-bottom: 0;
+    }
+
+    .clients {
+        padding: 0 5% 0 5%;
+    }
+
+    .clients-heading {
+        font-size: 28px;
+        padding-bottom: 0.5rem;
+    }
+
+    .clients-text {
+        font-size: 14px;
+        padding-bottom: 5rem;
+        padding-top: 2rem;
+    }
+
+    .contact {
+        padding: 10px;
+    }
+
+    .contact-subsection {
+        padding: 50px 30px 30px;
+    }
+
+    .feature-text {
+        font-size: 14px;
+    }
+
+    .form-subsection {
+        padding: 20px 10px 6px;
+    }
+
+    .about {
+        padding-bottom: 20px;
+    }
+
+    .contact-text {
+        font-size: 14px;
+    }
+
+    .contact-about,
+    .email-contact {
+        font-size: 28px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .styling {
+        padding-right: 3rem;
+    }
